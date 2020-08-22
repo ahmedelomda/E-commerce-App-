@@ -1,0 +1,49 @@
+.header {
+    height: 7.3rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    background-color: #f5f5f582;
+}
+
+.wrap {
+    position: relative;
+    height: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    width: 9rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+      margin-left: auto;
+      flex-direction: row;
+      display: flex;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+}
+
+ul {
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+ li { 
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.5rem 2.5rem;
+}
